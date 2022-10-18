@@ -1,0 +1,148 @@
+.hidden {
+    display: none!important;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+    height: 100%;
+}
+input{
+    padding: 10px;
+}
+img {
+    position:absolute;
+    width:100%;
+    height:100vh;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;
+    background-size: cover;
+}
+
+#quote {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    background: rgba(0,0,0,0.1);
+}
+
+#weather {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    background: rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+h2{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    margin: 20px 0;
+}
+#wrap{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: auto;
+    margin: 100px auto 0;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    margin: 20px 0;
+
+}
+#login-form{
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+#todo-form{
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+
+#todo-list{
+    justify-content: center;
+    margin: 0 0 0 230px;
+    list-style: none;
+
+}
+#placeholder{
+    width: 100%;
+}
+
+#name{
+    font-size: 50px;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    text-underline: white;
+    width: 400px;
+    height: 60px;
+    outline: none;
+    background-color: transparent;
+
+    font-family: inherit;
+    text-align: center;
+}
+#submit{
+    outline: none;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 0px;
+}
+
+ul li{
+    font-size: 30px;
+    color: white;
+}
+
+ul li:not(:last-child){
+    margin-bottom: 5px;
+}
+ul{
+    padding: 0!important;
+    margin: 0 auto;
+}
+
+button{
+    background: none;
+    font-size: 30px;
+    border: none;
+}
+h3{
+    color: white;
+    text-align: center;
+}
+#ul-session{
+    width:100%;
+}
+#ul-list{
+    border: none;
+    background: rgba(255,255,255,0.3);
+    font-size: 30px;
+    font-weight: 400;
+    outline: none;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    margin-top:2px;
+}
