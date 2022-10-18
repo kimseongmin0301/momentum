@@ -127,6 +127,7 @@ button{
     background: none;
     font-size: 30px;
     border: none;
+    cursor: pointer;
 }
 h3{
     color: white;
